@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Four Basic Calculator"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simple Android Calculator App"
+            android:textSize="15sp"
+            android:textColor="#8E8E8E"
+            android:gravity="center"
+            android:layout_marginBottom="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Number"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editNum1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter first number"
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:textColorHint="#B48AC6"
+            android:backgroundTint="#B565C0"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Second Number"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editNum2"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter second number"
+            android:inputType="numberDecimal|numberSigned"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:textColorHint="#B48AC6"
+            android:backgroundTint="#B565C0"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="ADD  +"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="SUBTRACT  -"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#9575CD"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="MULTIPLY  ×"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#BA68C8"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="DIVIDE  ÷"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#CE93D8"
+            android:layout_marginBottom="35dp" />
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#4A148C"
+            android:gravity="center"
+            android:padding="18dp"
+            android:background="#F3E5F5"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>
